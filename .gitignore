@@ -1,0 +1,38 @@
+# macOS system file
+.DS_Store
+
+# Tool-generated cache directories
+.cache/
+
+# CMake/clangd compilation database
+compile_commands.json
+
+# Ignore build directories anywhere in the repository
+**/build/
+**/bin/
+**/out/
+**/dist/
+**/target/
+
+# Ignore CMake and similar tool output
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio build directories
+Debug/
+Release/
+x64/
+x86/
+
+# Ignore IDE-specific build artifacts
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ensure .clang-format is not ignored (only if you're ignoring dotfiles elsewhere)
+#!.clang-format

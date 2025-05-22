@@ -1,0 +1,9 @@
+include(CMakeFindDependencyMacro)
+
+@PACKAGE_INIT@
+
+include("${CMAKE_CURRENT_LIST_DIR}/argparseTargets.cmake")
+
+# Ensure this is set for consumers
+set(ARGPARSE_INCLUDE_DIR "${PACKAGE_PREFIX_DIR}/include")
+
