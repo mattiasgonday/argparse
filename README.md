@@ -1,4 +1,4 @@
-# argparse
+# Basic argparse
 
 A modern, header-only C++ argument parser inspired by Python's `argparse`.
 
